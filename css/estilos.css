@@ -1,0 +1,444 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  color: #1f3d72;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1000px;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.header a {
+  color: #6d7b93;
+  font-weight: bold;
+  text-decoration: none;
+}
+.menu {
+  height: inherit;
+}
+.header ol {
+  display: flex;
+  height: inherit;
+}
+.header ol li {
+  height: inherit;
+}
+.header a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+.hero {
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.hero-info {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-wrap: inherit;
+}
+
+.hero-info-caracteristicas {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-wrap: inherit;
+}
+
+.hero-info-caracteristicas div {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-wrap: nowrap;
+}
+
+.hero-info-caracteristicas div:first-child {
+  margin-right: 50px;
+}
+
+.hero-info-caracteristicas img {
+  padding-right: 10px;
+}
+
+.hero-image {
+  object-fit: cover;
+}
+
+.marcasVacunas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.marcasVacunas img {
+  width: 200px;
+  height: 50px;
+}
+
+.porqueVacunarme {
+  background: white;
+  padding: 20px;
+}
+
+.porqueVacunarme-article {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.articulo-description {
+  font-size: 20px;
+}
+
+.articulo-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.articulo-details {
+  width: auto;
+  padding-right: 550px;
+}
+
+.articulo-imageContainer {
+  width: auto;
+  text-align: center;
+}
+
+.beneficios-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.beneficios-container--card {
+  width: 70%;
+  min-width: 150px;
+  max-width: 190px;
+  height: 360px;
+  margin: 0px 5px 0;
+  padding: 15px 15px;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.beneficios-container--card img {
+  width: 60px;
+}
+
+.beneficios-card--title {
+  height: 60px;
+  padding: 15px 0;
+  margin: 0px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  columns: var(--black);
+}
+
+.beneficios-card--descripcion {
+  font-size: 1.2rem;
+  color: #757575;
+}
+
+.preparacionVacuna {
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.preparacionVacuna-image {
+  object-fit: cover;
+}
+
+.preparacionVacuna-info {
+  width: 50%;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-wrap: inherit;
+}
+
+.preparacionVacuna-info-container {
+  padding-left: 50px;
+}
+
+.preparacionVacuna-container--card {
+  width: 100%;
+  min-width: 150px;
+  max-width: 450px;
+  height: auto;
+  margin: 0px 5px 0;
+  padding: 15px 15px;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.preparacionVacuna-container--card div {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.preparacionVacuna-container--card--active {
+  width: 100%;
+  min-width: 150px;
+  max-width: 450px;
+  height: auto;
+  margin: 0px 5px 0;
+  padding: 15px 15px;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.2);
+}
+
+.preparacionVacuna-container--card--active-parte1 {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.preparacionVacuna-container--card div {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.preparacionVacuna-card--title {
+  height: 45px;
+  margin-top: 8px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  columns: var(--black);
+}
+
+.contactoEmergencia {
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.contactoEmergencia-image {
+  object-fit: cover;
+}
+
+.contactoEmergencia-info {
+  width: 50%;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-wrap: inherit;
+}
+
+.contacto-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.contacto-container--card {
+  width: 70%;
+  min-width: 80px;
+  max-width: 190px;
+  height: 120px;
+  margin: 0px 5px 0;
+  padding: 15px 15px;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.contacto-container--card img {
+  width: 60px;
+}
+
+.contacto-container--card--part1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.contacto-container--card--part1 {
+  height: 60px;
+}
+
+.contacto-card--title {
+  padding: 0;
+  margin: 0px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  columns: var(--black);
+}
+
+.contacto-card--descripcion {
+  font-size: 1.2rem;
+  color: #757575;
+}
+
+#botonContacto1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 15px;
+  padding: 0 15px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #f1f5ff;
+  color: white;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.1);
+}
+
+#botonContacto1 a {
+  color: #3757d5 !important;
+}
+
+#botonContacto2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 15px;
+  padding: 0 15px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #3757d5;
+  color: white;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.35);
+}
+
+.contacto-container--card a {
+  text-decoration: none;
+}
+
+#menuContacto {
+  color: white;
+  margin-top: 15px;
+  padding: 0 15px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #3757d5;
+  color: white;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.35);
+}
+
+.linkContacto {
+  color: white !important;
+  font-weight: bold;
+}
+
+.footer {
+  color: #6d7b93;
+  background-color: #f1f5ff;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer-right {
+  width: 280px;
+}
+
+.footer-left {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
